@@ -1,0 +1,110 @@
+/* styles.css - Challenge #1 (Skeleton) */
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: grey;
+}
+
+hr{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.site-header{
+    text-align: center;
+    color: red;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tagline{
+    margin: 20px;
+    font-style: italic;
+    color: lightgray;
+    font-size: smaller;
+}
+
+
+.hero{
+    height:200px
+}
+
+.mascot-placeholder{
+    height: 100%;
+    display: flex;
+    flex-direction: column; /*stack the children up*/
+    justify-content: center; /*vertically algin*/
+    align-items: center; /*horizontal center non text*/
+    text-align: center;
+    
+
+    
+}
+
+
+#mascot-image{
+    border-style: solid;
+    border-radius:20%;
+    height: 100%;
+    background-color: white;
+    
+    
+}
+
+.about{
+    line-height: 200%;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row; /*stack the children up*/
+    justify-content: center; /*vertically algin*/
+    align-items: center; /*horizontal center non text*/
+    text-align: center;
+}
+
+button{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-radius: 10%;
+    border: none;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.buy-tickets{
+    background-color: green;
+    border-color: green;
+    box-shadow: 0 0 15px rgba(0, 200, 255, 0.6);
+}
+
+.buy-tickets:hover{
+    background-color: darkgreen;
+}
+
+.make-donation{
+    background-color: magenta;
+    border-color: magenta;
+    box-shadow: 0 0 15px lightpink;
+    
+}
+
+.make-donation:hover{
+    background-color: darkmagenta;
+}
+
+
+.site-footer{
+    margin-top: 20px;
+    text-align: center;
+    color: lightgrey;
+}
