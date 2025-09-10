@@ -42,7 +42,7 @@ html, body{
 }
 
 .image{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
     width: 150px;
     height: 150px;
@@ -51,17 +51,17 @@ html, body{
 }
 
 .name-title{
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .biography{
-    margin-top: 15px;
+    margin-top: 5px;
     width: 80%;
     text-align: center;
-    text-align: justify;
+    
     font-size: small;
     font-family: 'Courier New', Courier, monospace;
 }

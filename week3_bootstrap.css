@@ -1,0 +1,45 @@
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 2;
+    
+  }
+
+/* Make the carousel a positioning context */
+#hero-carousel { 
+  position: relative;
+}
+
+/* Same height for all slides (tweak as you like) */
+#hero-carousel .carousel-item {
+  height: 70vh;          /* or 600px */
+  min-height: 420px;
+}
+
+/* Images FILL that height */
+#hero-carousel .carousel-item img {
+  position: absolute;
+  inset: 0;              /* top:0; right:0; bottom:0; left:0 */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* <— crops a little but never distorts */
+  display: block;
+}
+
+/* If you prefer letterboxing instead of cropping, use this instead:
+#hero-carousel .carousel-item img { object-fit: contain; background:#000; }
+*/
+
+/* Overlay sits above slides */
+#hero-carousel .carousel-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.4);
+  z-index: 2;
+  pointer-events: none;  /* so arrows/indicators still work */
+}
+#hero-carousel .carousel-overlay .card { pointer-events: auto; }
